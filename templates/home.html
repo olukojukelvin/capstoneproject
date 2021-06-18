@@ -1,0 +1,144 @@
+{% extends 'main.html' %}
+{% block content %}
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+<div class="container">
+    <div class="card card-body" style="border: 1px solid green; box-shadow: 0 0 10px green;">
+        <h2 style="text-align:center">MULTIPLE DISEASE PREDICTOR</h2>
+        <h4 style="text-align:center">Capstone Project</h4>
+	    <h4 style="text-align:center">by</h4>
+	    <h4 style="text-align:center">Olukayode Kelvin OLUKOJU</h4>
+        <br>
+        <h2 style="text-align:center">Marchine Learning Model Accuracies</h2>
+         
+<div style="text-align:center"><img src="static/accuracy.png" alt="Model Accuracy" width="918" height="254"></div>
+			
+        
+        <br>
+        <h3 style="text-align:center">Disease Summary</h3>
+        <br>
+        
+        
+        <div class="row">
+            <div class="col-md-12 card card-body" style="border: 1px solid green; margin: 5px;">
+                <h4>Liver Disease</h4>
+				<p>Liver disease is any disturbance of liver function that causes illness. The liver is responsible for many critical functions within the body and should it become diseased or injured, the loss of those functions can cause significant damage to the body. Liver disease is also referred to as hepatic disease.</p>
+                <div id="container">
+				<div id="left" style="display: inline-block; *display: inline; zoom: 1; vertical-align: top;">
+				<h5>Symptoms</h5>
+                <ul>
+                    <li>Swelling of the abdomen and legs</li>
+                    <li>Bruising easily</li>
+                    <li>Changes in the color of stool and urine</li>
+                    <li>Jaundice</li>
+					<li>Yellowing of the skin and eyes</li>
+                </ul>
+				</div>
+				<div id="right" style="display: inline-block; *display: inline; zoom: 1; vertical-align: top;">
+				<img src="static/liverimg.png" alt="Liver Image" width="370" height="200">
+				</div>
+				
+				</div>
+			</div>
+        </div>
+
+
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="border: 1px solid green; margin: 5px;">
+                <h4>Kidney Disease</h4>
+                <p>Chronic kidney disease, also called chronic kidney failure, describes the gradual loss of kidney function. Your kidneys filter wastes and excess fluids from your blood, which are then excreted in your urine. When chronic kidney disease reaches an advanced stage, dangerous levels of fluid, electrolytes and wastes can build up in your body.</p>
+                <div id="container">
+				<div id="left" style="display: inline-block; *display: inline; zoom: 1; vertical-align: top;">
+				<h5>Symptoms</h5>
+                <ul>
+                    <li>Nausea</li>
+                    <li>Vomiting</li>
+                    <li>Fatigue and weakness</li>
+                    <li>Muscle twitches and cramps</li>
+                </ul>
+				</div>
+				<div id="right" style="display: inline-block; *display: inline; zoom: 1; vertical-align: top;">
+				<img src="static/kidney.gif" alt="Kidney Image" width="370" height="200">
+				</div>
+				
+				</div>
+            </div>
+        </div>
+        
+        <br>
+		<div class="row">
+            <div class="col-md-12 card card-body" style="border: 1px solid green; margin: 5px;">
+                <h4>Heart Disease</h4>
+                <p>Heart disease encompasses a wide range of cardiovascular problems. Several diseases and conditions fall under the umbrella of heart disease.</p>
+                <div id="container">
+				<div id="left" style="display: inline-block; *display: inline; zoom: 1; vertical-align: top;">
+				<h5>Symptoms</h5>
+                <ul>
+                    <li>Fluttering in chest</li>
+                    <li>Racing heartbeat</li>
+                    <li>Chest pain or discomfort</li>
+                    <li>Shortness of breath</li>
+					<li>Dizziness</li>
+					<li>Lightheadedness</li>
+					<li>Fainting(Syncope) or near fainting</li>
+                </ul>
+				</div>
+				<div id="right" style="display: inline-block; *display: inline; zoom: 1; vertical-align: top;">
+				<img src="static/heart.png" alt="Heart Image" width="370" height="300">
+				</div>
+				
+				</div>
+            </div>
+        </div>
+		<br>
+		<div class="row">
+            <div class="col-md-12 card card-body" style="border: 1px solid green; margin: 5px;">
+                <h4>Diabetes</h4>
+                <p>Diabetes mellitus, commonly known as diabetes, is a metabolic disease that causes high blood sugar. The hormone insulin moves sugar from the blood into your cells to be stored or used for energy. With diabetes, your body either doesn't make enough insulin or can't effectively use the insulin it does make.</p>
+                <div id="container">
+				<div id="left" style="display: inline-block; *display: inline; zoom: 1; vertical-align: top;">
+				<h5>Symptoms</h5>
+                <ul>
+                    <li>Extreme fatigue.</li>
+					<li>Feeling very thirsty.</li>
+                    <li>Blurry vision.</li>
+					<li>Urinating often.</li>
+                </ul>
+				</div>
+				<div id="right" style="display: inline-block; *display: inline; zoom: 1; vertical-align: top;">
+				<img src="static/diabetes.jpeg" alt="Diabetes Image" width="370" height="200">
+				</div>
+				
+				</div>
+            </div>
+        </div>
+		<br>
+		<div class="row">
+            <div class="col-md-12 card card-body" style="border: 1px solid green; margin: 5px;">
+                <h4>Breast Cancer</h4>
+                <p>Breast cancer is the most common invasive cancer in women and the second leading cause of cancer death in women after lung cancer.</p>
+                <div id="container">
+				<div id="left" style="display: inline-block; *display: inline; zoom: 1; vertical-align: top;">
+				<h5>Symptoms</h5>
+                <ul>
+                    <li>Pain in the armpits or breast that does not change with the monthly cycle</li>
+                    <li>Pitting or redness of the skin of the breast, similar to the surface of an orange</li>
+                    <li>A rash around or on one of the nipples</li>
+                    <li>Discharge from a nipple, possibly containing blood</li>
+					<li>A sunken or inverted nipple</li>
+                    <li> A change in the size or shape of the breast</li>
+                    <li>Peeling, flaking, or scaling of the skin on the breast or nipple</li>
+                </ul>
+				</div>
+				<div id="right" style="display: inline-block; *display: inline; zoom: 1; vertical-align: top;">
+				<img src="static/breastcancer.jpg" alt="Breast Cancer Image" width="370" height="300">
+				</div>
+				
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
