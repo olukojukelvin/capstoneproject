@@ -38,7 +38,6 @@ cloudpickle
 colorama 
 comtypes==1.1.9
 conda-content-trust 
-conda-verify==3.4.2
 contextlib2==0.6.0.post1
 cryptography 
 cycler==0.10.0
