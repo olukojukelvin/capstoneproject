@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, flash, redirect
 import pickle
 import numpy as np
 from PIL import Image
-from tensorflow.keras.models import load_model
+import pandas as pd
 
 
 
